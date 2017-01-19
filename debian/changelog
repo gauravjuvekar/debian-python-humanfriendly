@@ -1,0 +1,5 @@
+python-humanfriendly (2.3.2-1) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #851824)
+
+ -- Gaurav Juvekar <gauravjuvekar@gmail.com>  Thu, 19 Jan 2017 11:38:11 +0530

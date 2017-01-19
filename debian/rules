@@ -1,0 +1,10 @@
+#! /usr/bin/make -f
+
+export PYBUILD_NAME=humanfriendly
+export PYBUILD_AFTER_INSTALL_python2=rm -rf {destdir}/usr/bin/
+%:
+	dh $@ --with python3,python2 --buildsystem=pybuild
+
+override_dh_auto_test:
+	# Do no thing as testing depends on python-coloredlogs which depends on this
+	# package forming a circular dependency
