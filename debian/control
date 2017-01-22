@@ -1,4 +1,4 @@
-Source: python-humanfriendly
+Source: humanfriendly
 Section: python
 Priority: optional
 Maintainer: Gaurav Juvekar <gauravjuvekar@gmail.com>
@@ -47,11 +47,11 @@ Description: Python3 library to make user friendly text interfaces
 
 Package: humanfriendly
 Architecture: all
-Depends: python3-humanfriendly, ${misc:Depends}, ${python3:Depends},
+Depends: python-humanfriendly, ${misc:Depends}, ${python3:Depends},
 Recommends: ${python3:Recommends}
 Suggests: ${python3:Suggests}
-Description: Python3 library to make user friendly text interfaces
- A Python3 library that can be used to make text interfaces more user friendly.
+Description: Python library to make user friendly text interfaces
+ A Python library that can be used to make text interfaces more user friendly.
  It provides parsing and formatting numbers, file sizes, pathnames and
  timespans in simple human friendly formats. It provides easy to use timers for
  long running operations, prompts for selecting a choice from a list of options
