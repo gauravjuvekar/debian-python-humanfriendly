@@ -1,1 +1,2 @@
 usr/lib/python2*/dist-packages/humanfriendly/*.py*
+usr/lib/python2*/dist-packages/*.egg-info
