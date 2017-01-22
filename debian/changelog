@@ -1,4 +1,4 @@
-humanfriendly (2.3.2-1) UNRELEASED; urgency=low
+humanfriendly (2.3.2-1) experimental; urgency=low
 
   * Initial release. (Closes: #851824)
 
