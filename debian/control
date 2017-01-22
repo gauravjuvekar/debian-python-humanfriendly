@@ -50,7 +50,7 @@ Architecture: all
 Depends: python3-humanfriendly, ${misc:Depends}, ${python3:Depends},
 Recommends: ${python3:Recommends}
 Suggests: ${python3:Suggests}
-Description: Python library to make user friendly text interfaces
+Description: Helper command for the humanfriendly Python3 library
  A Python library that can be used to make text interfaces more user friendly.
  It provides parsing and formatting numbers, file sizes, pathnames and
  timespans in simple human friendly formats. It provides easy to use timers for
@@ -59,4 +59,4 @@ Description: Python library to make user friendly text interfaces
  terminal interaction including text styling (ANSI escape sequences), user
  friendly rendering of usage messages and querying the terminal for its size.
  .
- This package provides a command to access the functions in the library.
+ This package provides a helper command to access the functions in the library.
